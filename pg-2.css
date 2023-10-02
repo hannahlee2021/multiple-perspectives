@@ -1,0 +1,108 @@
+body {
+    background-color: #E0E0E0;
+    /* background-color: #E3EBEF; */
+
+}
+
+h1 {
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container-2 {
+display: flex;
+justify-content: center;
+padding-top: 50px;
+gap: 30px;
+}
+
+.box-1 {
+    transition: transform 0.2s;
+    background-color: white;
+    
+    width: 203px;
+    height: 284px;
+    
+
+}
+
+
+
+.box-2 {
+    /* background-color: white; */
+    width: 471px;
+    height: 284px;
+}
+
+#text-1 {
+    position: absolute;
+    width: 471px;
+    height: 284px;
+    left: 450px;
+
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.box-3 {
+    background-color: white;
+    width: 357px;
+    height: 284px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    }
+
+    .box-4 {
+        background-color: white;
+        width: 203px;
+        height: 284px;
+    
+    }
+    
+    .box-5 {
+        background-color: white;
+        width: 357px;
+        height: 284px;
+    }
+
+        
+    .box-6 {
+        background-color: white;
+        width: 471px;
+        height: 284px;
+    }

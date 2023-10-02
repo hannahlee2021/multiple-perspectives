@@ -1,0 +1,61 @@
+body {
+    background-color: #E0E0E0;
+    /* background-color: #E3EBEF; */
+
+}
+
+h1 {
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#image {
+    position: absolute;
+    top:0;
+    z-index: -1;
+    animation: fadeIn 5s infinite; 
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
+.container-1 {
+display: flex;
+justify-content: center; /* align item horizontally */
+align-items: center; /* align item vertically */
+padding-top: 150px;
+gap: 200px;
+
+
+}
+
+.box-1 {
+    background-color: white;
+    width: 214px;
+    height: 473px;
+
+}
+
+.box-2 {
+    background-color: white;
+    width: 215px;
+    height: 319px;
+
+}
+
+.box-3 {
+    background-color: white;
+    width: 214px;
+    height: 206px;
+
+}
+
